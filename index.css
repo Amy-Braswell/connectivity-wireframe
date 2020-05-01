@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+html {
+    padding: 0;
+}
+
+body {
+    padding: 0;
+}
+
+.nav-desktop {
+    position: fixed;
+    width: 80%;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: white;
+    z-index: 500;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style: none;
+}
+
+h1 {
+    position: fixed;
+    width: 20%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: -5vh;
+    padding-top: 3vh;
+}
+
+ul {
+    margin-bottom: 8vh;
+}
+
+li {
+    list-style: none;
+}
+
+label {
+    display: block;
+}
+
+input { 
+    display: block;
+    margin: 5px auto;
+}
+
+button {
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    background: #aaa;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.registration-login-process {
+    margin-top: 11vh;
+}
+
+.upper-right-button {
+    display: block;
+    position: relative;
+    left: 80%;
+    z-index: 100;
+}
+
+.upper-right-close-button {
+    display: block;
+    position: relative;
+    left: 80%;
+    margin-top: 2vh;
+    z-index: 100;
+}
+
+.item-begin-main {
+    margin-top: 3vh; 
+}
+
+.member, .message, .photo-album, .post {
+    background-color: #ccc;
+}
+
+.comment {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #333;
+}
